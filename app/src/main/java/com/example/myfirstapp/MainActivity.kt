@@ -23,4 +23,8 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+    fun showWebApiTest(view: View) {
+        startActivity(Intent(this, WebApiActivity::class.java))
+    }
 }

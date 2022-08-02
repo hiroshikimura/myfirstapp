@@ -18,10 +18,8 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".WebApiTestActivity"
-            android:exported="false"
-            android:label="@string/title_activity_web_api_test"
-            android:theme="@style/Theme.MyFirstApp.NoActionBar" />
+            android:name=".WebApiActivity"
+            android:exported="false" />
         <activity
             android:name=".DisplayMessageActivity"
             android:exported="false"
